@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ortalama Hesaplayıcı</string><string name="dersnotu">Not ortalaması</string>
+    <string name="derssaati">Ders saati</string>
+    <string name="ders">Dersler</string>
+    <string-array name="derslistesi">
+        <item>Ders seçiniz</item>
+        <item>Matematik</item>
+        <item>Geometri</item>
+        <item>Fizik</item>
+        <item>Kimya</item>
+        <item>Biyoloji</item>
+        <item>Fen ve Teknoloji</item>
+        <item>Türkçe</item>
+        <item>Türk Edebiyatı</item>
+        <item>Dil ve Anlatım</item>
+        <item>Diksiyon ve Hitabet</item>
+        <item>Çağdaş Türk ve Dünya Tarihi</item>
+        <item>T.C İnkılap Tarihi</item>
+        <item>Tarih</item>
+        <item>Coğrafya</item>
+        <item>Sosyal Bilgiler</item>
+        <item>Yabancı Dil</item>
+        <item>İkinci Yabancı Dil</item>
+        <item>Felsefe</item>
+        <item>Sosyoloji</item>
+        <item>Psikoloji</item>
+        <item>Resim/Müzik</item>
+        <item>Milli Güvenlik Bilgisi</item>
+        <item>Sağlık Bilgisi</item>
+        <item>Trafik ve İlkyardım</item>
+        <item>Beden Eğitimi</item>
+        <item>Din Kültürü ve Ahlak Bilgisi</item>
+        <item>Teknoloji ve Tasarım </item>
+        <item>Diğer</item>
+    </string-array>
+    <string name="hesapla">Hesapla</string>
+    <string name="temizle">Temizle</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="hakkinda_basligi">Ortalama Hesaplayıcı 2.0</string>
+    <string name="hakkinda_metni">Bu uygulama Doğukan Korkmaztürk tarafından tüm ilk ve orta dereceli okullarda öğrencilerin karne notu ortalamalarını daha kolay hesaplayabilmeleri amacıyla yazılmıştır. Uygulama <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GPL v2</a> lisansı altında dağıtılmaktadır.</string>
+    <string name="cikis">Çıkış</string>    
+    <string name="aciklama">İlk ve orta dereceli okullar için karne notu ortalaması hesaplayıcı</string>
+    <string name="hata">Hata!</string>
+    <string name="hata_metni">Lütfen 0 ile 100 arasında bir not ortalaması giriniz</string>
+    <string name="takdir">Tebrikler! Ortalamanız TAKDİR belgesi almak için yeterli</string>
+    <string name="tesekkur">Tebrikler! Ortalamanız TEŞEKKÜR belgesi almak için yeterli</string>
+    <string name="belgeyok">Üzgünüz, ortalamanız herhangi bir belge almak için yeterli değil</string>
+    <string name="zayifnot">Zayıf notunuz olduğu için ortalamanız yeterli olmasına rağmen belge alamazsınız</string>
+    <string name="link">http://code.google.com/p/ortalama-hesaplayici/</string>
+</resources>

@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/satir1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati1"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu1"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/satir2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati2"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu2"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/satir3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati3"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu3"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/satir4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati4"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu4"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati5"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu5"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati6"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu6"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati7"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu7"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati8"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu8"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati9"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu9"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati10"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu10"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati11"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu11"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati12"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu12"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati13"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu13"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati14"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu14"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati15"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu15"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati16"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu16"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+		<TableRow
+            android:id="@+id/satir17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati17"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu17"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati18"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu18"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/satir19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati19"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu19"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+		<TableRow
+            android:id="@+id/satir20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/derssec20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.65"
+                android:prompt="@string/ders" />
+
+            <EditText
+                android:id="@+id/derssaati20"
+                android:layout_width="match_parent"
+                android:layout_weight="0.20"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/derssaati"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/dersnotu20"
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dersnotu"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </TableRow>
+        
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        	<Button
+        	    android:id="@+id/hesapla"
+        	    android:layout_width="155dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="11dp"
+        	    android:text="@string/hesapla"
+        	    android:textSize="15dp" />
+
+        	<Button
+        	    android:id="@+id/temizle"
+        	    android:layout_width="150dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="11dp"
+        	    android:layout_toRightOf="@id/hesapla"
+        	    android:text="@string/temizle"
+        	    android:textSize="15dp" />
+
+        </RelativeLayout>
+        
+        <TextView
+            android:id="@+id/ortalama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/belge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableLayout>
+    
+</ScrollView>
